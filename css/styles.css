@@ -1,0 +1,29 @@
+
+body {
+  background-color: #ababab;
+  font-family: "arial", "helvetica", sans-serif;
+}
+
+nav {
+  background-color: rgb(209, 181, 24);
+  display: flex;
+  justify-content: center;
+  padding: .2em;
+  width: 100%;
+}
+
+nav a {
+  margin: 2em 1em 0 1em;
+  color: white;
+}
+
+nav a:hover {
+  color: pink;
+}
+
+.img-hero {
+}
+
+.img-hero img {
+  width: 100%;
+}
