@@ -24,6 +24,30 @@ nav a:hover {
 .img-hero {
 }
 
-.img-hero img {
+.img-hero img,
+.flex-container div img {
   width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+}
+
+.flex-item {
+  background-color: hotpink;
+  margin: 1em;
+  width: 30%;
+}
+
+.flex-item p {
+  padding: 10px 30px;
+}
+
+main {
+  flex: 2;
+}
+
+blockquote {
+  text-align: center;
 }
